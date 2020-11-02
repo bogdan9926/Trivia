@@ -1,0 +1,43 @@
+	Programarea calculatoarelor - Seria CC
+	Tema 2 - TRIVIA
+
+	Nume: Popescu Bogdan-Petrut
+	Grupa: 314CC
+
+IMPORTANT:Rezolutia minima recomandata este de 80x30!!!
+
+	Implementarea codului mi-a luat aproximativ 4 zile:
+- In prima zi am creat titlul si meniul(aproximativ 3 ore);
+- In a doua zi am creat trecerea de la o fereastra la alta, recursivitatea 
+dintre New Game si Resume Game si afisarea unei intrebari (aproximativ 5 ore);
+- In a treia zi am creat citirea din fisier a intrebarilor, afisarea scorului, 
+a nr de intrebari corecte/gresite si a timpului (aproximativ 5 ore);
+- In a patra zi am creat variantele ajutatoare si am rezolvat erori
+(aproximativ 1,5 ore);
+
+		Prezentarea programului: Programul incepe cu o animatie de loading screen 
+cu titlul,din fisierul "Titlu.txt", dupa care pe ecran apare meniul si data.Se poate misca
+prin meniu cu sageata sus/jos si se selecteaza cu ENTER. 
+
+	La apasarea New Game, apare pe centrul ecranului prima intrebare,cu raspunsurile
+posibile. Si aici se poate naviga cu sageata sus/jos, se poate iesi cu 'Q', se
+poate selecta cu ENTER, sau se pot folosi variantele ajutatoare:Skip(tasta 'S') si
+50/50 (tasta 'F'). In total am implementat 11 intrebari in fisierul
+"Intrebari.txt",dar se pot pune mai multe, respectandu-se modelul de intrebare:
+(enunt,4 variante,nr variantei corecte(0-3)). La folosirea 50/50, 2 variante gresite
+se taie. La folosirea Skip, se trece la intrebarea urmatoare, fara sa se ia in
+considerare ca raspuns corect/gresit. La finalul intrebarilor, afisez un mesaj de 
+final, dupa care afisez scorul si numarul de intrebari corecte si gresite. Apoi 
+ma intorc la meniu
+	
+	La apasarea Resume Game, daca nu s-a mai apasat New Game inainte, nu se va
+intampla nimic. Daca s-a mai apasat, se va reveni la momentul in care s-a iesit din
+joc cu "Q".
+	
+	La apasarea Quit, se iese in terminal.
+
+	Am rezolvat toate cerintele, folosind in mare parte 3 functii: menu, game
+si selectionwindow, explicate in program.
+
+	Ca si bonus, am creat pe partea grafica un titlu animat,citit din fisier si am
+schimbat fundalul jocului.  
